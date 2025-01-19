@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-image: url(background\ petronas.jpeg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+}
+.navbar{
+    position: absolute;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    top: -35px;
+}
+.navbar a{
+    color:white ;
+    
+}
+.navbar .logo {
+    font-size: 2em;
+    font-weight: bold;
+   
+}
+.navbar .nav-links ul{
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.3s ease;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    width: 600px;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 65px;
+    border-radius: 25px;
+    margin-top: 40px;
+    padding-top: 100px;
+    margin: auto;
+    color: white;
+}
+.marquee{
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: scroll 5s linear infinite;
+}
+.marquee img{
+    margin-right: 20px;
+    height: 200px;
+    width: 250px;
+}
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    color: white;
+    margin-top: 15px;
+}
+p{
+    font-size: 17px;
+    text-align: left;
+    color: white;
+    margin-top: 30px;
+    
+}
+.divisé{
+    column-count: 2;
+    column-gap: 30px;
+    text-align:left;
+    left: 200px;
+}
